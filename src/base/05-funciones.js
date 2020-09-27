@@ -13,9 +13,9 @@ const saludar4 = () => `Hola Mundo`;
 
 // console.log( saludar('Goku') )
 
-console.log( saludar2('Vegeta') );
-console.log( saludar3('Goku') );
-console.log( saludar4() );
+// console.log( saludar2('Vegeta') );
+// console.log( saludar3('Goku') );
+// console.log( saludar4() );
 
 
 export const getUser = () => ({
@@ -25,7 +25,7 @@ export const getUser = () => ({
 
 
 const user = getUser();
-console.log(user);
+// console.log(user);
 
 // Tarea
 const getUsuarioActivo = ( nombre ) =>({
@@ -34,7 +34,7 @@ const getUsuarioActivo = ( nombre ) =>({
 })
 
 const usuarioActivo = getUsuarioActivo('Fernando');
-console.log( usuarioActivo );
+// console.log( usuarioActivo );
 
 
 
